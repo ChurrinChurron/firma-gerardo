@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerardo Roa | Director de proyectos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #fff;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1em;
+        }
+
+        .logo img {
+            width: 100%;
+            max-width: 8.8em;
+        }
+
+        .datos h2 {
+            font-size: 1.150em;
+        }
+
+        .datos span {
+            display: inline-block;
+            font-size: .9em;
+            margin-bottom: .3em;
+        }
+
+        .datos span img {
+            width: 1em;
+            margin-right: .4em;
+        }
+
+        .redes {
+            margin-bottom: 2em;
+        }
+
+        .redes h4 {
+            text-align: left;
+            margin-bottom: .6em;
+            font-size: .9em;
+        }
+
+        a img {
+            width: 100%;
+            max-width: 2.6em;
+        }
+
+        @media screen and (width >= 600px) {
+            
+            .box {
+                flex-direction: row;
+                align-items: center;
+                gap: 1em 1.5em;
+            }
+
+            .datos {
+                margin-top: 3em;
+            }
+
+            .redes h4 {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="box">
+            <td colspan="8" class="logo">
+                <img src="assets/logo.png" alt="logo">
+            </td>
+            <td class="datos">
+                <h2>GERARDO ROA</h2>
+                <p>Director de proyectos |</p>
+                <img src="assets/linea.png" alt="linea">
+                <br/>
+                <span><img src="assets/whatsapp.png" alt="whatsapp">55 6674 4555</span>
+                <br/>
+                <span><img src="assets/tel.png" alt="telefono">55 5563 8436 / 55 6386 6070</span>
+                <br/>
+                <span><img src="assets/correo.png" alt="correo">gerardoroa@htiluminacion.com.mx</span>
+                <br/>
+                <span><img src="assets/web-2.png" alt="web">www.htiluminacion.com.mx</span>
+            </td>
+            <td class="redes">
+                <h4>Síguenos</h4>
+                <a href="https://www.facebook.com/hmastiluminacion"><img src="assets/face.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/htiluminacionydiseno"><img src="assets/insta.png" alt="instagram"></a>
+                <a href="https://www.htiluminacion.com.mx/"><img src="assets/web.png" alt="web"></a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
